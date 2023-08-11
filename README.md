@@ -1,5 +1,5 @@
 # kivy-custom-webview
-Using adnroid webview in Kivy (KivyMD) with some modification
+Using android webview in Kivy (KivyMD) with some modification
 
 ### Credits:
 [Kivy](https://github.com/kivy/kivy)  
