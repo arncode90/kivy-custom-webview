@@ -1,0 +1,48 @@
+<WebviewModal>
+    MDBoxLayout:
+        orientation: 'vertical'
+        padding: dp(10)
+        spacing: dp(10)
+        md_bg_color: 'white'
+
+        MDBoxLayout:
+            id: search_bar
+            adaptive_height: True
+            spacing: dp(15)
+            MDBoxLayout:
+                adaptive_height: True
+                FitImage:
+                    source: 'favicon/fav.png'
+                    size_hint: None, None
+                    height: search_input.height - dp(15)
+                    width: self.height
+                    pos_hint: {'center_y': .5}
+
+                MDTextField:
+                    id: search_input
+                    text: root.url
+                    hint_text: 'Website'
+                    line_color_normal: 'white'
+                    write_tab: False
+                    on_text_validate: root.open_website_url(search_input.text)
+
+            MDIconButton:
+                icon: 'chevron-right'
+                ripple_duration_in_fast: 0
+                ripple_duration_in_slow: 0
+                icon_size: sp(20)
+                rounded_button: False
+                _radius: dp(5)
+                md_bg_color: 'whitesmoke'
+                pos_hint: {'center_y': .5}
+                on_release: root.open_website_url(search_input.text)
+
+        MDBoxLayout:
+            id: webview_size
+            md_bg_color: 'whitesmoke'
+            radius: dp(5)
+
+
+        MyButton:
+            text: '[b]DISMISS MODAL VIEW[/b]'
+            on_release: root.dismiss()
