@@ -11,9 +11,11 @@ KivyMD 1.2.0.dev0
 - current page url updated (search_input)
 - go next or prev page in search history
 
+- TODO:
+- unfocus search input when on webview active
+
 ### TODO:  
 - add progress bar
-- backward / forward webview controller
 - history section
 - bookmark section
 - share link
