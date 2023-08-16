@@ -5,7 +5,8 @@ Kivy v2.2.0
 Python v3.10.11  
 KivyMD 1.2.0.dev0  
 
-![ss](https://github.com/arncode90/kivy-custom-webview/assets/48113758/ee6938df-3d65-42a8-886b-d3a682d7ae7e)
+![ss](https://github.com/arncode90/kivy-custom-webview/assets/48113758/1fc57eaf-cba2-4369-a228-fdd47867623a)
+
   
 ### SIMPLE WEBVIEW: _simple_webview  
 - current page favicon updated (search_favicon)
