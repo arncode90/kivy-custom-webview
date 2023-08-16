@@ -1,6 +1,11 @@
 # kivy-custom-webview
 Using android webview in Kivy (KivyMD) with some modification  
 
+### Requirements:  
+Kivy v2.2.0  
+Python v3.10.11  
+KivyMD 1.2.0.dev0  
+
 ### TODO:  
 - auto change web favicon on search bar
 - add progress bar
