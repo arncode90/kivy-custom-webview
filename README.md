@@ -14,10 +14,9 @@ KivyMD 1.2.0.dev0
 - current page url updated (search_input)
 - go next or prev page in search history
 
-- TODO:
-- unfocus search input when on webview active
 
 ### TODO:  
+- unfocus search input when on webview active
 - add progress bar
 - history section
 - bookmark section
