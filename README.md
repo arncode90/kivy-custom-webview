@@ -8,7 +8,8 @@ KivyMD 1.2.0.dev0
 ![ss](https://github.com/arncode90/kivy-custom-webview/assets/48113758/1fc57eaf-cba2-4369-a228-fdd47867623a)
 
   
-### SIMPLE WEBVIEW: _simple_webview  
+### SIMPLE WEBVIEW: 
+- use **_simple_webview** folder  
 - current page favicon updated (search_favicon)
 - current page url updated (search_input)
 - go next or prev page in search history
