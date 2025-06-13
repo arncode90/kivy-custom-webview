@@ -9,7 +9,7 @@ KivyMD 1.2.0.dev0
 
   
 ### SIMPLE WEBVIEW: 
-- use **_simple_webview** folder  
+- note: use this folder -> **_simple_webview**
 - current page favicon updated (search_favicon)
 - current page url updated (search_input)
 - go next or prev page in search history
